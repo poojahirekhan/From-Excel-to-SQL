@@ -5,4 +5,4 @@ SELECT first_name , last_name FROM Employees;
 SELECT first_name as &quot;First name&quot;, last_name as &quot;Last name&quot;,id  FROM Employees;
 SELECT * from employees where Department =&quot;Marketing&quot;;
 select * from employees where department =&quot;Support&quot;;
-</sql><current_tab id="0"/></tab_sql></sqlb_project>
+select first_name, last_name, department  from Employees where department=&quot;Marketing&quot;;</sql><current_tab id="0"/></tab_sql></sqlb_project>
