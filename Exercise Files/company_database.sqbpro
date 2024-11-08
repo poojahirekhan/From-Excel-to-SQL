@@ -14,4 +14,24 @@ select * from employees where department is not &quot;Sales&quot;;
 select * from employees where (department =&quot;Marketing&quot; or department = &quot;Sales&quot;) and tshirt_size = &quot;L&quot; and first_name is not &quot;Rikki&quot;;
 select * from employees where tshirt_size = &quot;L&quot; limit 1 offset 1 ;
 select * from employees where vacation_taken = 9;
-select * from employees where vacation_taken &gt; 9 ;</sql><current_tab id="0"/></tab_sql></sqlb_project>
+select * from employees where vacation_taken &gt; 9 ;
+select * from employees where vacation_taken is not 9 order by vacation_taken;
+select * from Employees where vacation_taken &lt;&gt; 9;
+select * from Employees where first_name like &quot;t%&quot;;
+select * from employees where last_name like &quot;%t%&quot;;
+select * from employees where last_name like &quot;_a%&quot;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
